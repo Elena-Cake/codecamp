@@ -113,3 +113,8 @@ function sum(arr, n) {
     // Only change code above this line
 }
 // console.log(sum([2, 3, 4, 5], 3))
+
+const a = "есть Измерения"
+console.log(a.toLowerCase().includes("измерения"))
+
+console.log("Синий кит".includes("синий"))
