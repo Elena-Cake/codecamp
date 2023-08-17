@@ -23,4 +23,12 @@ function removeEveryOther(arr) {
     arr.forEach((item, i) => { if (i % 2 === 0) ar.push(item) })
     return ar
 }
-console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));
+// console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']));
+
+
+var capitals = function (word) {
+    const arr = []
+    word.split('').forEach((item, i) => { if (item.toUpperCase() === item) arr.push(i) })
+    return arr
+};
+// console.log(capitals('CodEWaRs'))
