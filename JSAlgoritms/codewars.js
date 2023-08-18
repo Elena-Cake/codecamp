@@ -33,13 +33,19 @@ var capitals = function (word) {
 };
 // console.log(capitals('CodEWaRs'))
 
+
 function billboard(name, price = 30) {
     return name.split('').reduce((res, item) => res + price, 0)
 }
-
 // console.log(billboard("Jeong-Ho Aristotelis"));
+
 
 function doubleChar(str) {
     return str.split('').map(i => i + i).join('')
 }
 //   console.log(doubleChar("Adidas"));
+
+function solution(a, b) {
+    return a.length > b.length ? b + a + b : a + b + a
+}
+console.log(solution('45', '1'));
