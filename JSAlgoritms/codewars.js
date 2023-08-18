@@ -32,3 +32,9 @@ var capitals = function (word) {
     return arr
 };
 // console.log(capitals('CodEWaRs'))
+
+function billboard(name, price = 30) {
+    return name.split('').reduce((res, item) => res + price, 0)
+}
+
+// console.log(billboard("Jeong-Ho Aristotelis"));
