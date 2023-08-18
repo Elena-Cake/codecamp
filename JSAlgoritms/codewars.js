@@ -38,3 +38,8 @@ function billboard(name, price = 30) {
 }
 
 // console.log(billboard("Jeong-Ho Aristotelis"));
+
+function doubleChar(str) {
+    return str.split('').map(i => i + i).join('')
+}
+//   console.log(doubleChar("Adidas"));
